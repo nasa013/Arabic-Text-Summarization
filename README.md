@@ -15,7 +15,7 @@ This project implements an Arabic text summarization system using the AraT5 mode
 
 ## Model Details
 
-- Base Model: UBC-NLP/AraT5-base-title-generation
+- Base Model: UBC-NLP/AraT5v2-base-1024
 - Training Data: AGS-Corpus dataset
 - Preprocessing: Custom Arabic text normalization
 - Evaluation Metrics: ROUGE scores and TF-IDF Cosine Similarity
