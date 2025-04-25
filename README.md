@@ -42,7 +42,7 @@ This project implements an Arabic text summarization system using the AraT5 mode
 
 ## Directory Structure
 
-- `data/`: Contains dataset files "i can't upload it since its more than 900MB with tf-idf features"
+- `data/`: Contains dataset files "i can't upload it since it's more than 900MB with tf-idf features"
 - `models/`: Stores trained models
 - `output/`: Training logs and outputs
 
