@@ -56,11 +56,6 @@ Install PyQt5:
 pip install PyQt5
 ```
 
-### Running the GUI
-```bash
-python gui.py
-```
-
 ### GUI Features
 - Enter or paste Arabic text (RTL)
 - Upload `.txt` files (UTF-16 LE encoding supported)
