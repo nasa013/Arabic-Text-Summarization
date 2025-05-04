@@ -10,6 +10,11 @@ This project implements an Arabic text summarization system using the AraT5 mode
 - ROUGE evaluation metrics
 - Custom Arabic text tokenization
 
+- **Modern PyQt5 GUI for Arabic summarization**
+  - True right-to-left (RTL) support for Arabic
+  - Paste or type Arabic text directly
+  - Upload `.txt` files (UTF-16 LE supported)
+  - Generate and view summaries in RTL
 
 
 
@@ -40,9 +45,31 @@ This project implements an Arabic text summarization system using the AraT5 mode
    - Measures semantic similarity between generated and reference summaries
    - Uses custom Arabic tokenization
 
+## GUI Usage
+
+### Requirements
+- Python 3.7+
+- PyQt5
+
+Install PyQt5:
+```bash
+pip install PyQt5
+```
+
+### Running the GUI
+```bash
+python gui.py
+```
+
+### GUI Features
+- Enter or paste Arabic text (RTL)
+- Upload `.txt` files (UTF-16 LE encoding supported)
+- Click "شعبلي الدنيا" to view the summary in RTL
+- Modern, user-friendly interface with Comic Sans MS font and gray/blue palette
+ 
+
 ## Directory Structure
 
-- `data/`: Contains dataset files "i can't upload it since it's more than 900MB with tf-idf features"
+- `data/`: Contains dataset files (not included here due to size, >900MB with tf-idf features)
 - `models/`: Stores trained models
 - `output/`: Training logs and outputs
-
